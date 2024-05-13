@@ -41,7 +41,7 @@ const LoginForm = ({ onLogin }) => {
             </label>
             <label>
                 Hasło:<br />
-                <input type="password" value={password} onChange={(e) => setPassword(e.target.value)}  id="surname" name="surname" autoComplete="on" placeholder="Hasło"/> <br /> <br />
+                <input type="password" value={password} onChange={(e) => setPassword(e.target.value)}  id="password" name="password" autoComplete="on" placeholder="Hasło"/> <br /> <br />
             </label>
             <button type="submit">Zaloguj</button>
             <p className="error">{error}</p>
