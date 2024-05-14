@@ -37,7 +37,7 @@ const LoginForm = ({ onLogin }) => {
         <form onSubmit={handleSubmit}>
             <label>
                 Login:<br />
-                <input type="text" value={user} onChange={(e) => setUser(e.target.value)} id="name" name="name" autoComplete="on" placeholder="Login"/><br />
+                <input type="text" value={user} onChange={(e) => setUser(e.target.value)} id="user" name="user" autoComplete="on" placeholder="Login"/><br />
             </label>
             <label>
                 Hasło:<br />
