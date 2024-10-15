@@ -6,8 +6,8 @@ import LoginForm from './components/LoginForm';
 const App = () => {
 
   const [loggedInUser, setLoggedInUser] = useState(null);
-  const [name, setName] = useState('');
-  const [surname, setSurname] = useState('');
+  // const [name, setName] = useState('');
+  // const [surname, setSurname] = useState('');
 
   const handleLogin = (userData) => {
     //dodajemy logikę autoryzacji, np. wysłanie danych do serwera
